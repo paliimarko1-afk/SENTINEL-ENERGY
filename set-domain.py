@@ -1,4 +1,4 @@
-# Використання: python set-domain.py sentinel-energy.com.ua  (підставляє ваш домен в canonical, Open Graph, JSON-LD, sitemap, robots, nginx)
+# Використання: python set-domain.py sentinel-energy.com.ua  (підставляє ваш домен в canonical, Open Graph, sitemap, robots, nginx)
 import sys, pathlib
 dom = sys.argv[1].replace("https://", "").replace("http://", "").strip("/") if len(sys.argv) > 1 else sys.exit("Вкажіть домен")
 d = pathlib.Path(__file__).parent
