@@ -11,7 +11,7 @@
 Телефон +380 93 941 01 89 і пошта sentinelenerdzi@gmail.com: кнопки «Зв’язатись», «Подзвонити» (tel:), «Написати на Gmail» (mailto:) і є в шапці, у розділі «Контакти», під формою конфігуратора та у вікні після успішної відправки. Міняйте номер і пошту в `index.html` (шукайте `380939410189` і `sentinelenerdzi@gmail.com`) і в JSON-LD.
 
 ## Індексація
-- Весь контент (текст, таблиця цін) є в HTML без JS. Вже додано: title, description, canonical, Open Graph / Twitter-картка (`og-image.png`). Структурованих даних Schema.org (Product/Offer) на сайті немає свідомо: це інформаційний лендінг, а не магазин. `robots.txt`, `sitemap.xml`, `site.webmanifest`, іконки, `404.html` (noindex).
+- Весь контент (текст, таблиця характеристик) є в HTML без JS. Вже додано: title, description, canonical, Open Graph / Twitter-картка (`og-image.png`). Структурованих даних Schema.org (Product/Offer) на сайті немає свідомо: це інформаційний лендінг, а не магазин. `robots.txt`, `sitemap.xml`, `site.webmanifest`, іконки, `404.html` (noindex).
 - Після публікації: додайте сайт у Google Search Console і Bing Webmaster Tools, підтвердіть домен і надішліть `https://ваш-домен/sitemap.xml`.
 
 ## Піддомен, іконка, індексація
