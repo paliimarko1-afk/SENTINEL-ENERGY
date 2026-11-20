@@ -8,7 +8,7 @@
 3. Завантажте всю папку на хостинг. Файл `_headers` (Netlify / Cloudflare Pages) або `.htaccess` (Apache) підключить заголовки безпеки; для nginx див. `nginx.conf.example`. GitHub Pages заголовки не підтримує, але CSP вже є в `index.html`.
 
 ## Контакти на сайті
-Телефон +380 93 941 01 89 і пошта sentinelenerdzi@gmail.com: кнопки «Зв’язатись», «Подзвонити» (tel:), «Написати на Gmail» (mailto:) і є в шапці, у розділі «Контакти», під формою конфігуратора та у вікні після успішної відправки. Міняйте номер і пошту в `index.html` (шукайте `380939410189` і `sentinelenerdzi@gmail.com`) і в JSON-LD.
+Телефон +380 93 941 01 89 і пошта info.sentinelenergy@gmail.com: кнопки «Зв’язатись», «Подзвонити» (tel:), «Написати на Gmail» (mailto:) і є в шапці, у розділі «Контакти», під формою конфігуратора та у вікні після успішної відправки. Міняйте номер і пошту в `index.html` (шукайте `380939410189` і `info.sentinelenergy@gmail.com`) і в JSON-LD.
 
 ## Індексація
 - Весь контент (текст, таблиця характеристик) є в HTML без JS. Вже додано: title, description, canonical, Open Graph / Twitter-картка (`og-image.png`). Структурованих даних Schema.org (Product/Offer) на сайті немає свідомо: це інформаційний лендінг, а не магазин. `robots.txt`, `sitemap.xml`, `site.webmanifest`, іконки, `404.html` (noindex).
